@@ -1,0 +1,48 @@
+PROJECT: Eugene Neighborhood Associations Collaboration Platform
+Overview:
+Build a web application for approximately 10 neighborhood associations in Eugene to manage their internal operations and collaborate with each other.
+Core Features:
+	1.	Multi-Association Management
+	∙	Each neighborhood association operates as a separate entity within the platform
+	∙	Associations can sign up and create their own accounts
+	∙	Support for smooth leadership transitions (when presidents/officers change)
+	1.	Role-Based User Management
+	∙	President/Chair
+	∙	Vice President
+	∙	Treasurer
+	∙	Area Representatives
+	∙	General Members
+	∙	Access and permissions should align with these roles
+	1.	Document Management
+	∙	Store and organize association documents
+	∙	Version control and document history
+	∙	Easy access for current leadership and appropriate members
+	1.	Issue & Topic Tracking
+	∙	Track what neighbors are saying/reporting
+	∙	Manage topics that need attention
+	∙	Track items that need to be communicated to the city
+	∙	Action item management
+	1.	Inter-Association Collaboration
+	∙	Open portal/messaging system where associations can communicate with each other
+	∙	Ability to collaborate on shared initiatives
+	∙	Discussion forums or channels for cross-association coordination
+	1.	Integration Requirements
+	∙	Google Workspace: Most associations already use Google Workspace
+	∙	Google authentication (OAuth)
+	∙	Potential Google Drive integration for document storage
+	∙	Google Calendar integration
+	∙	Email Platform Integration: Associations use various platforms
+	∙	MailChimp (confirmed)
+	∙	Other platforms (to be determined)
+	∙	Need ability to integrate with their existing email/communication tools
+	∙	Eugene Neighborhood Inc: Central organization that holds funds for the associations
+	∙	Need some form of connection/integration for fund management
+	1.	Account Succession
+	∙	When leadership changes (new president elected, etc.), new officers should inherit access to all association resources
+	∙	Historical documents and data should transfer seamlessly
+	∙	No loss of institutional knowledge during transitions
+Technical Considerations:
+	∙	Web-based platform
+	∙	User-friendly interface for non-technical community volunteers
+	∙	Secure authentication and data privacy (separate association data)
+	∙	Scalable to accommodate future growth beyond 10 associations

@@ -1,7 +1,7 @@
 {
   "name": "neighborhoods_unit",
   "version": "1.0.0",
-  "description": "App that neighborhood association. Can organize",
+  "description": "App for neighborhood associations to organize, communicate, and build stronger communities",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
